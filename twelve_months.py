@@ -9,44 +9,44 @@ def main():
     # This function check that twelve months
 
     # input
-    integer = int(input("Enter the number of month(ex: 3 for March): "))
+    month_number = int(input("Enter the number of months(ex: 3 for March): "))
     print("")
 
     # process
-    if integer == 1:
+    if month_number == 1:
         # output
         print("January")
-    elif integer == 2:
+    elif month_number == 2:
         # output
         print("February")
-    elif integer == 3:
+    elif month_number == 3:
         # output
         print("March")
-    elif integer == 4:
+    elif month_number == 4:
         # output
         print("April")
-    elif integer == 5:
+    elif month_number == 5:
         # output
         print("May")
-    elif integer == 6:
+    elif month_number == 6:
         # output
         print("June")
-    elif integer == 7:
+    elif month_number == 7:
         # output
         print("July")
-    elif integer == 8:
+    elif month_number == 8:
         # output
         print("August")
-    elif integer == 9:
+    elif month_number == 9:
         # output
         print("September")
-    elif integer == 10:
+    elif month_number == 10:
         # output
         print("October")
-    elif integer == 11:
+    elif month_number == 11:
         # output
         print("November")
-    elif integer == 12:
+    elif month_number == 12:
         # output
         print("December")
     else:
